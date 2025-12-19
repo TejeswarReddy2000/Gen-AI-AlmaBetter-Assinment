@@ -11,7 +11,7 @@ load_dotenv(dotenv_path=".env", override=True)
 import streamlit as st
 
 if not os.getenv("GROQ_API_KEY"):
-    st.error("❌ GROQ_API_KEY not found in .env file")
+    st.error("GROQ_API_KEY not found in .env file")
     st.stop()
 
 # =============================
@@ -120,3 +120,4 @@ if uploaded_file:
 
 else:
     st.warning("Please upload a PDF to begin.")
+
