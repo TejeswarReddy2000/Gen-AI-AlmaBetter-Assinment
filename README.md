@@ -208,7 +208,4 @@ India
 
 This project is for **educational and research purposes**.
 
----
-
-⭐ If you like this project, consider starring the repository!
 
